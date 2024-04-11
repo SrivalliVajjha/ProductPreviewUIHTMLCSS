@@ -1,0 +1,46 @@
+.PreviewCard{
+    width:700px;
+    height:500px;
+    position: fixed;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
+}
+
+.PictureSection{
+  background-image: url("../images/image-product-desktop.jpg");
+  width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin:0px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.DetailsSection{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding:2em;
+    max-width:50%;
+}
+
+.MainHeading{
+    font-size: 36px;
+}
+
+.Description{
+    line-height: 1.5;
+}
+
+.priceSection{
+    display:flex;
+}
+
+.discountPrice{
+    font-size:32px;
+}
+.originalPrice{
+    padding-left:1em;
+}
